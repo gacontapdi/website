@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NHÂN VẬT</title>
+    <meta charset="utf-8">
+        <style>     
+            *{
+              margin: 0;
+              padding: 0;
+            }   
+        body {           
+            background-size: cover;
+           margin: 0;
+        width: 1000px;
+        margin: auto;            
+          }
+        #menu {
+          width: 1000px;
+          height: 40px;
+          background:  rgba(17, 6, 6, 0.651);
+          margin: 0px auto;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        #running{
+          background-color: rgba(17, 6, 6, 0.651);
+          display: block;
+        }
+           ul.root > li {
+             list-style: none;
+             float: left ;
+             position: relative;
+           }
+           ul.root > li > a{
+             text-decoration: none;
+             color: white;
+             padding: 0px 15px 0px 15px ;
+             line-height: 40px;
+           display: block; 
+           }
+           ul.root > li > a:hover{
+             background: rgb(158, 5, 5);
+              transition: ease-in 0.35s;
+              -moz-transition: ease-in 0.35s;
+              -webkit-transition: ease-in 0.35s;
+           }
+           ul.submenu {
+             width: 150px;
+             background: rgb(24, 24, 24);
+             min-height: 100px ;
+             display: none;/*ẩn khi vào trang*/
+             position: absolute;
+           }
+           ul.submenu li { list-style: none;}
+           ul.submenu li a {
+             color: white;
+             text-decoration: none;
+             display: block;
+             line-height: 40px ;
+             text-indent: 10px;
+           }
+          
+           ul.root > li:hover ul.submenu
+           {
+             display: block;
+            
+              transition: ease-out 0.35s;
+              -moz-transition: ease-out 0.35s;
+              -webkit-transition: ease-out 0.35s;
+           }
+           ul.submenu li a:hover{
+            background: rgb(158, 5, 5);
+              transition: ease-in 0.35s;
+              -moz-transition: ease-in 0.35s;
+              -webkit-transition: ease-in 0.35s;
+           }
+  #bottom
+{
+ width: 100%;
+ height: 2px;
+ background: grey;
+}
+
+.column {
+            float: left;
+            width: 40%;
+            padding: 15px;
+          }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+           #footer {
+      background-color: grey;
+      height: 150px;
+    }
+    
+          #cottrai {
+    float: left;
+    color: white;
+    width: 33.33%;
+  margin-top: 40px  ;
+  margin-left: 30px;
+  height: fit-content;
+}
+#cotgiua {
+    float: left;
+    color: white;
+    width: 30%;
+  margin-top: 40px  ;
+  height: fit-content;
+}
+#cotphai {
+    float: left;
+    color: white;
+    width: 33.33%;
+  margin-top: 40px  ;
+  height: fit-content;
+}
+
+
+            </style>
+  </head>
+  <body>
+    <marquee direction="left" id="running">
+      <p style="color: yellow; font-size: 16px; "> Na Tra: Ma đồng giáng thế (tiếng Trung: 哪吒之魔童降世) là một bộ phim 
+        hoạt hình có doanh thu tính trong một thị trường đơn lẻ cao nhất toàn thế giới
+     </marquee>
+
+    <div class="anhLogo"> 
+      <img src="Ảnh/banner natra.jpg" style="width: 1000px;height: 300px; vertical-align: middle;"/>
+    </div>
+
+
+<div id="menu">
+  <ul class="root">
+    <li><a href="./index.html">HOME</a></li>
+    <li><a href="#">ABOUT</a>
+        <ul class="submenu">
+          <li><a href="./about.nhanvat.html">CHARACTERS</a></li>
+          <li><a href="#">OTHER SEASONS </a></li>
+        </ul>
+    </li>
+    <li><a href="#">SUPPORT</a>
+      <ul class="submenu">
+        <li><a href="#">POSTER</a></li>
+        <li><a href="#">ACCOUNT </a></li>
+      </ul>
+    </li>
+
+    <li><a href="#">REVIEW</a>
+      <ul class="submenu">
+        <li><a href="#">TEASER</a></li>
+        <li><a href="#">TRAILER </a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<br><h2 style="color: chocolate; text-align: center;"> CÁC NHÂN VẬT CHÍNH</h2> </br>
+
+<div class="row">
+  <div class="column">
+<img src="Ảnh/Natra2.jpg" style="width:200px;height: 250px;padding-left: 100px;"/>
+  </div>
+  <div class="column">
+    <h3 style="color: chocolate;">Na Tra</h3>
+    <p>
+        Vì mưu đồ của kẻ phản diện đầy tham vọng Thân Công Báo,
+        Na Tra đã bị gán cho là “yêu quái” và sẽ bị sét hủy diệt ba năm sau khi sinh ra. 
+        Tuy nhiên, cha mẹ Na Tra quyết tâm cho cậu một tuổi thơ tuyệt vời nhất mà họ có thể.
+        Họ đã chăm sóc Na Tra bằng tình yêu và tình cảm chân thành. Bất chấp những nỗ lực của họ, cậu bé vẫn bị tẩy chay.
+        Ngay cả khi cậu cố gắng giành được sự chấp nhận từ người dân thị trấn bằng cách sử dụng sức mạnh của mình để cứu ngôi làng
+    </p>
+
+  </div>
+</div>
+
+<div id="bottom"> </div>
+<div class="row">
+  <div class="column">
+<img src="./Ảnh/Ngao Bính.jpg" style="width:200px;height: 250px;padding-left: 100px;">
+  </div>
+  <div class="column">
+    <h3 style="color: chocolate;">Ngao Bính</h3>
+    <p>
+        Sau khi đánh tráo hai viên Linh Châu Và Ma Hoàn, tên Thân Công Báo đã đem viên Linh Châu cho Long Vương tái sinh thành con trai của ông ta, Ngao Bính.
+        Dòng tộc của Long Vương, những con rồng đang vô cùng phẫn nộ với vai trò cai ngục dưới sự cai trị của Thiên đình. Họ đã bị giam giữ trong một địa ngục dưới đáy đại dương. 
+        Long Vương luôn ấp ủ hy vọng rằng thông qua đứa con trai được sinh ra từ Linh Châu, dòng tộc rồng sẽ được Thiên đình coi là xứng đáng cho phép loài rồng được rời khỏi đại dương. Long Vương đã cho phép Thân Công Báo nhận Ngao Bính làm học trò.
+    </p>
+  </div>
+</div>
+<div id="bottom"> </div>
+
+<footer id="footer">
+  <div class="cot"> 
+    <div id="cottrai">
+    <BR>NA TRA: MA ĐỒNG GIÁNG THẾ </br>
+    @ Được thực hiện bởi Khánh Linh
+    </p>
+    </div>
+      <div id="cotgiua">
+      <li><a href="#" style="color: white ;">Các chính sách hỗ trợ</a></li>
+      <li><a href="#" style="color: white ;">Điều khoản dịch vụ</a></li>
+      <li> <a href="#" style="color: white ;">Đối tác</a></li>
+      <li> <a href="#"style="color: white ;">Trợ giúp</a></li>
+      </div>
+  
+    <div id="cotphai"> 
+      Giữ liên lạc
+      <li><a href="#"style="color: white ;"> Twitter</a></li>
+      <li><a href="#"style="color: white ;">Facebook</a></li>
+      <li> Hotline: 0989 330 128</li>
+    </div>
+    </div>
+  
+      </footer>     
+  </body>
+</html>
